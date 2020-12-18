@@ -29,13 +29,13 @@ window.onload = function() {
         }, time);
     }
 
+    // box shadow for header when scrolling
+
     window.onscroll = function() {
         if (window.scrollY > 22) {
           nav.classList.add("scrolled");
-          navLinks.classList.add('nav-scroll')
         } else {
           nav.classList.remove("scrolled");
-          navLinks.classList.remove('nav-scroll')
         }
       };
 
@@ -50,7 +50,6 @@ window.onload = function() {
         footer.classList.toggle('blur');
         container.classList.toggle('blur');
         hamburger.classList.toggle('toggle');
-
     })
 
 
@@ -78,6 +77,7 @@ window.onload = function() {
     // unpause autoslide
     slideContainer.addEventListener('mouseleave', startSlide);
 
+    // set style for current link clickedd
     function setCurrentLink(i) {
         links[currentLink].classList.add('link');
         links[currentLink].classList.remove('current-link');
@@ -102,6 +102,7 @@ window.onload = function() {
         navigationDot[0].children[0].classList.add('active');
     }
 
+    //set active indicator
     function setActiveClass(slideNumber) {
         let currentDot = document.querySelector('.active');
         currentDot.classList.remove('active');
