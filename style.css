@@ -686,7 +686,6 @@ footer .square-dots2 {
         grid-template-columns: repeat(1, minmax(260px, auto));
     }
 
-
     .name {
         order: 4;
     }
