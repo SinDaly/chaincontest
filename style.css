@@ -345,12 +345,12 @@ header .l_flex__container {
 }
 
 .l_slider {
-    width: 300%;
+    width: 400%;
     transition: .4s ease-in-out;
 }
 
 .l_slide {
-    width:33.33%;
+    width:25%;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     float: left;
     padding: 50px;

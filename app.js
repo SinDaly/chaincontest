@@ -110,7 +110,7 @@ window.onload = function() {
     }
 
     function goToSlide(slideNumber) {
-        slider[0].style.transform = `translateX(${slideNumber*(-33.33)}%)`;
+        slider[0].style.transform = `translateX(${slideNumber*(-25)}%)`;
         currentSlide = slideNumber;
         setActiveClass(slideNumber);
         clearInterval(slideId);
